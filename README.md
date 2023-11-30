@@ -2,7 +2,7 @@
 
 This is a static website that I designed for a local salon.
 
-**Link to project:
+**Link to project:https://rahulkali00.github.io/SaloonAppointment/
 
 
 
