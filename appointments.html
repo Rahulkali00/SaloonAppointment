@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Appointments</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .topPage {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .apptHeadr {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 98%;
+            padding: 9px;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+        }
+
+        .appInfo {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="topPage">
+        <header>
+            <nav>
+                <h1>Hair &Co</h1>
+                
+            </nav>
+        </header>
+    </div>
+
+    <div class="apptHeadr">
+
+        <h1>Appointments</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="location">Your Location:</label>
+            <input type="location" id="location" name="location" required><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required><br>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div class="appInfo">
+        <p>Appointments can also be booked by calling us at 9235648765 . We are open every day except on sundays.</p>
+    </div>
+
+</body>
+
+</html>

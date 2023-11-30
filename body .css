@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.topPage header {
+    margin-top: 20px;
+}
+
+.topPage h1 {
+    margin: 0;
+}
+
+.bookNowContent {
+    margin-top: 50px;
+    color: #fff;
+}
+
+.bookNowContent h2 {
+    font-size: 32px;
+}
+
+.bookNowContent p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.bookNowButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF;
+    border-radius: 5px;
+}

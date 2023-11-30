@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login Hair&Co</title>
+    <style>
+        
+        body {
+            font-family: monospace, Helvetica, sans-serif;
+            background-image: url('https://cdn4.vectorstock.com/i/1000x1000/06/08/hairdressing-saloon-background-vector-1290608.jpg'); /* Replace with your image URL */
+        }
+
+        .login-container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 50px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            margin-top: 100px;
+            opacity: 50;
+            font-size: larger;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 6px;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            width: 370px;
+            border: 2px solid #ccc;
+            border-radius: 100px;
+        }
+
+        .input-group input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .input-group input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .error {
+            color: #ff0000;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="index.html" method="post">
+            <div class="input-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="input-group">
+                <input type="submit" value="Login">
+            </div>
+        </form>
+        
+        <div class="error">
+            <!-- Display login error messages here if needed -->
+        <div class="signup-link">
+            Don't have an account? <a href="#">SignUp as guest</a>
+        </div>
+    </div>
+</body>
+</html>

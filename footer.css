@@ -1,0 +1,27 @@
+footer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 8rem; /* Adjust the height as needed */
+  }
+  
+  footer ul {
+    align-items: center;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: space-around;
+    list-style-type: none;
+    max-width: 1200px; /* Adjust the max-width as needed */
+    width: 90%; /* Adjust the width as needed */
+  }
+  
+  footer > section > small,
+  footer > section > small > a:link,
+  footer > section > small > a:visited,
+  footer > section > small > a:hover,
+  footer > section > small > a:active {
+    color: #666666;
+    font-size: 1rem;
+  }
+  
+  
